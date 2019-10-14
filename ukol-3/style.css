@@ -1,0 +1,50 @@
+body {
+    background-color: #9DB4B6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #648CB0;
+    line-height: 1.5rem;
+    text-align: justify;
+} 
+
+h1 {
+    font-size: 3rem;
+    color: #726e67;
+    line-height: 1.3rem;
+}
+
+a {
+    font-weight: 700;
+    color: rgba(131, 120, 103, 0.603);
+}
+
+h2 { 
+    color: rgb(67, 88, 78);
+    line-height: 1rem;
+}
+
+ul {
+    font-size: 1.5rem;
+    font-style: oblique;
+    color: #648CB0;
+    line-height: 1.4rem;
+    font-weight: 400;
+}
+
+img {
+    opacity: 0.7;
+}
+
+div {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+
+
