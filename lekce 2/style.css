@@ -42,10 +42,6 @@ a:focus {
     color: #2c1611;
 }
 
-a:visited {
-    color: rgba(122, 122, 122, 0.603);
-}
-
 h2 { 
     font-size: 2rem;
     color: #64362d;
@@ -80,7 +76,7 @@ ul {
     display: inline-block;
     }
 
-.blok {
+/* .blok { */
     border-width: 5px;
     border-color: #64362d;
     border-style: dotted;
