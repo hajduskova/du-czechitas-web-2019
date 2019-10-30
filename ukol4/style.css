@@ -16,4 +16,100 @@ html { box-sizing: border-box; }
 
 body {
     background-color: #bdc3c7;
+    margin: 0;
+    padding: 0;
 }
+
+.jmeno {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 25px;
+}
+
+ul {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #bdc3c7;
+    width: 100%;
+    text-align: center;
+}
+
+.logo {
+    background-color: #b92e81;
+    border-radius: 50%;
+    z-index: 20;
+    position: absolute;
+    left: 185px;
+    top: 150px;
+}
+
+.profil {
+    background-color: #31363b;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #bdc3c7;
+    box-shadow: 3px 5px 2px 0.5px rgba(0, 0, 0, 0.2);
+    width: 250px;
+    font-size: 14px;
+}
+
+.obsah {
+    padding: 17px;
+}
+
+a {
+    color: #bdc3c7;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding: 0 auto;
+}
+
+.portfolio {
+    display: inline-block;
+    padding: 0 auto;
+}
+
+.facebook {
+    display: inline-block;
+    width: 50%;
+    padding: 0 auto;
+}
+
+.twitter {
+    display: inline-block;
+    width: 50%;
+    padding: 0 auto;
+}
+
+.foto {
+    width: 100%;
+}
+
+li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding: 0 auto;
+    border-top: solid 1.2px #3f464d;
+}
+
+a#tab-1:hover {
+    background-color: #e74c3c;
+    color: white;
+    width: 100%;
+}
+
+a#tab-2:hover {
+    background-color:#3b5998;
+    color: white;
+}
+
+a#tab-3:hover {
+    background-color: #1da1f2;
+    color: white;
+}
+
+/* tohle bych ještě udělala já, aby to bylo hezký :) Ale není to v zadání, tak to neudělám :)
+p {text-align: justify;
+} */
