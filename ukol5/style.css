@@ -63,36 +63,32 @@ body {
 a {
     color: #bdc3c7;
     text-decoration: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding: 0 auto;
-}
-
-.portfolio {
-    width: 100%;
-}
-
-.facebook {
-    width: 50%;
-}
-
-.twitter {
-    width: 50%;
 }
 
 .foto {
     width: 100%;
 }
 
+.facebook {
+    flex-basis: 100px;
+}
+
+.twitter {
+    flex-basis: 100px;
+}
+
+
 .odkazy li {
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .odkazy a {
-display: inline-block;
-width: 100%;
-padding: 10px;
-border-top: solid 1,2 px #bdc3c7;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-top: solid 1,2 px #bdc3c7;
 }
 
 .portfolio a:hover {
