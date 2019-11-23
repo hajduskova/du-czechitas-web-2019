@@ -28,14 +28,16 @@ body {
 }
 
 .odkazy {
+    display: flex;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-weight: 600;
     color: #bdc3c7;
     width: 100%;
-    text-align: center;
     padding: 0;
     margin: 0;
+    flex-wrap: wrap;
+    list-style-type: none;
 }
 
 .logo {
@@ -70,25 +72,25 @@ a {
 }
 
 .facebook {
-    flex-basis: 100px;
+    flex-grow: 1;
 }
 
 .twitter {
-    flex-basis: 100px;
-}
-
-
-.odkazy li {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-grow: 1;
 }
 
 .odkazy a {
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
+    margin: 0;
     border-top: solid 1,2 px #bdc3c7;
+    justify-content: center;
+}
+
+.portfolio {
+    width: 100%;
+    flex-grow: 1;
 }
 
 .portfolio a:hover {
