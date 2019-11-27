@@ -14,13 +14,10 @@ html { box-sizing: border-box; }
 */
 
 body {
-    padding: 0;
-    margin: 0;
+    display: flex;
     background-color: #e5e5e5;
     font-family: "Source Sans Pro", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
+    position: relative;
 }
 
 .obal {
@@ -29,65 +26,146 @@ body {
     background: white;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     height: 960px;
+    display: flex;
+    flex-flow: column;
 }
 
-ul {
+header {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    font-size: 1.7rem;
+    align-items: center;
+    color: #25133d;
+}
+
+brand {
+    margin-left: 40px;
+    font-weight: 700;
+}
+
+.navigace {
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.navigace a {
+    text-decoration: none;
+    color: #25133d;
+}
+
+li {
+    margin-left: 40px;
     color: black;
-    line-height: 3rem;
-    font-weight: 400;
+    padding: 0 auto;
+}
+
+main {
+    top: 50px;
+    position: relative;
+}
+
+.section1 {
+    display: flex;
+    flex-flow: column;
+    position: relative;
 }
 
 .pozadi {
-    position: absolute;
+    position: fixed;
+    top: 60px;
     z-index: 0;
-    top: 80px;
     width: 960px;
-    height: 510px;
+    height: 50%;
+}
+
+.nadpis {
+    z-index: 20;
+    color: white;
+    font-weight: 400;
+    font-size: 90px;
+    margin-left: 40px;
+}
+
+.text {
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 20;
+    color: white;
+    font-weight: 300;
+    margin-left: 40px;
+    font-size: 40px;
 }
 
 .telefon {
     z-index: 20;
     position: absolute;
-    bottom: 435px;
-    right: 500px;
-}
-
-a {
-    color: black;
-    text-decoration: none;
-    padding: 0 auto;
-}
-
-.nadpis{
-    z-index: 20;
-    color: white;
+    bottom: -11px;
+    right: 0px;
 }
 
 .tlacitka {
     z-index: 20;
     color: white;
+    margin-left: 40px;
+    font-size: 40px;
+}
+
+.tlacitko1 {
+    background-color: #48418e;
+    border: 2px solid white;
+    border-color: white;
+    border-width: px;
+    border-radius: 5%;
+    color: white;
+    padding: 25px 32px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.tlacitko2 {
+    background-color: #47418e00;
+    border: 2px solid white;
+    border-color: white;
+    border-width: px;
+    border-radius: 5%;
+    color: white;
+    padding: 25px 32px;
+    font-size: 20px;
 }
 
 .section2 {
     display: flex;
     flex-direction: row;
-    position: absolute;
-    bottom: 70px;
-    width: 960px;
     text-align: center;
+    margin: 40px;
+    margin-top: 70px;
+}
+
+article img {
+    height: 17%;
+}
+
+article h2 {
+    color: #48418e;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.section2 article {
+    font-size: 17px;
+    margin: 18px;
+    line-height: 28px;
 }
 
 footer {
-    display: inline-block;
-    background-color: #25133d;
-    bottom: 0;
-    right: 0;
+    position: absolute;
+    background-color:  #48418e;
+    width: 960px;
+    bottom: 0px;
 }
 
 footer p {
     color: white;
+    text-align: center;
 }
